@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Accueil</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+<body>
+
+	<form method="post">
+
+		<fieldset id="blue">
+
+			<legend id="blue">
+				Votre identité
+			</legend>
+
+			<ol>
+
+				<label for="name">1. Nom :</label> <input type="text" id="name" placeholder="Nom"><br />
+				<label for="firstname">2. Prénom :</label> <input type="text" id="firstname" placeholder="Prénom"><br />
+				<label for="email">3. Adresse email :</label> <input type="email" id="email" placeholder="adresse email"><br />
+
+			</ol>
+
+		</fieldset>
+
+
+		<fieldset id="purple">
+
+			<legend id="purple">
+				Adresse de livraison
+			</legend>
+
+			<ol>
+
+				<label for="address">1. Adresse :</label> <textarea id="address"></textarea><br />
+				<label for="code">2. Code postal :</label> <input type="text" id="code" placeholder="Code postal"><br />
+				<label for="city">3. Ville :</label> <input type="text" id="city" placeholder="Ville"><br />
+
+			</ol>
+
+		</fieldset>
+
+
+
+		<fieldset id="pink">
+
+			<legend id="pink">
+				Informations de règlement
+			</legend>
+
+			<ol>
+			
+
+					<label>1. Type de carte bencaire :</label>
+						<div><input type="radio" id="visa" name="carte">
+					<label for="visa">VISA</label></div>
+		  				<div><input type="radio" id="mastercard" name="carte">
+					<label for="mastercard">MASTERCARD</label></div>
+
+
+				<label for="num1">2. Numéro de carte :</label> <input type="text" id="num1" placeholder="Numéro de carte"><br />
+				<label for="num2">3. Code de sécurité :</label> <input type="text" id="num2" placeholder="Code de sécurité"><br />
+				<label for="titulaire">4. Nom du titulaire :</label> <input type="text" id="titulaire" placeholder="Nom du titulaire"><br />
+
+			</ol>
+
+		</fieldset>
+
+		<button>J'achète</button>
+	
+	</form>
+
+	</body>
+
+</html>
